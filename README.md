@@ -1,5 +1,9 @@
 # FFT_HARDWARE
-FFT Hardware written in TL-Verilog.
+FFT Hardware written in TL-Verilog. 
+
+![makerchip diagram](images/fft_diagram.png)
+
+[Click-Here](https://www.makerchip.com/sandbox/0YEf3h2G9/0RghvP3) to open the design in Makerchip IDE.
 
 ### Verifying the FFT Design
 Following test-values have been considered to verify the FFT Design
@@ -17,4 +21,6 @@ Following test-values have been considered to verify the FFT Design
 | -7 + 7j         | 0 - 28j               | 0400_e000                   | fd2c_107c        |
 | 8 - 8j          | -14.14 + 6.14j        | 02d4_ff84                   | 02d4_ff84        |
 
+Following Values can be exaclty seen in the output waveform in [Makerchip IDE](https://www.makerchip.com/)
 
+![screenshot](images/output.png)
